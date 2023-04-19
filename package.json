@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "setup": "cd ~/projects/codewars-setup && pnpm run codewars",
     "test": "mocha \"$1/*.test.js\" --recursive",
     "test:watch": "mocha \"$1/*.test.js\" --recursive --watch --parallel",
     "test:codewars": "mocha \"codewars/**/*.test.js\" --recursive",
