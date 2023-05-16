@@ -1,4 +1,4 @@
-export default function findHack() {
+export default function findHack(arr) {
   const grades = { "A": 30, "B": 20, "C": 10, "D": 5}
   const cheaters = [];
 
